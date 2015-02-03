@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sonya Spowage - Style Guide, P01 IAT 339</title>
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>lululemon lab</h1>
+    <p>A style guide template, by Sonya Spowage.</p>
+    <nav>
+      Go to:
+      <a href="#text">Text</a>
+      <a href="#images">Images</a>
+      <a href="#buttons">Buttons</a>
+      <a href="#form">Form</a>
+      <a href="#groups">Groups</a>
+    </nav>
+    <!-- TEXT SECTION -->
+    <section id="text">
+	   <h1>H1 Style</h1>
+	   <h5>CSS selector:</h5>
+	   <p>'H1'</p>
+	   <h5>Sample code:</h5>
+	   <code>&lt;h1&gt;H1 Element&lt;/h1&gt;</code>
+
+	   <h2>H2 Style</h2>
+	   <h5>CSS selector:</h5>
+	   <p>'H2'</p>
+	   <h5>Sample code:</h5>
+	   <code>&lt;h2&gt;H2 Element&lt;/h2&gt;</code>
+	   
+	   <h3>H3 Style</h3>
+	   <h5>CSS selector:</h5>
+	   <p>'H3'</p>
+	   <h5>Sample code:</h5>
+	   <code>&lt;h3&gt;h3 Element&lt;/h3&gt;</code>
+	   
+	   <h4>H4 Style</h4>
+	   <h5>CSS selector:</h5>
+	   <p>'H4'</p>
+	   <h5>Sample code:</h5>
+	   <code>&lt;h4&gt;H4 Element&lt;/h4&gt;</code>
+	   
+	   <h5>H5 Style</h5>
+	   <h5>CSS selector:</h5>
+	   <p>'H5'</p>
+	   <h5>Sample code:</h5>
+	   <code>&lt;h5&gt;H5 Element&lt;/h5&gt;</code>
+	   
+	   <h6>H6 Style</h6>
+	   <h5>CSS selector:</h5>
+	   <p>'H6'</p>
+	   <h5>Sample code:</h5>
+	   <code>&lt;h6&gt;H6 Element&lt;/h6&gt;</code>
+	   
+	   <h2>Paragraph Style</h2>
+	   <h5>CSS selector:</h5>
+	   <p>'p'</p>
+	   <h5>Sample code:</h5>
+	   <code>&lt;p&gt;Paragraph Element&lt;/p&gt;</code>
+	   <h5>Rendered element:</h5>
+	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    </section>
+    
+    <!-- IMAGE SECTION -->
+    <section id="images">
+    
+   	   <h2>Image Style</h2>
+	   <h5>CSS selector:</h5>
+	   <p>'img'</p>
+	   <h5>Sample code:</h5>
+	   <code>&lt;img src="image/file.png" alt="alt tag"&gt;</code>
+	   <h5>Rendered element:</h5>
+	   <img src="img/front.png" alt="Front View of Blouse" width="238" height="363">
+
+    </section>
+    
+    <!-- BUTTON SECTION -->
+    <section id="buttons">
+	  <h2>Default Link Style</h2>
+      <h5>CSS selector:</h5>
+      <p>'a'</p>
+      <h5>Sample code:</h5>
+      <code>&lt;a href="#"&gt;Default Link&lt;/a&gt;</code>
+      <h5>Rendered element:</h5>
+      <a href="#">Default Button</a>
+      
+      <h2>Default Button Style</h2>
+      <h5>CSS selector:</h5>
+      <p>'a.button'</p>
+      <h5>Sample code:</h5>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+      <h5>Rendered element:</h5>
+      <a class="button" href="#">Default Button</a>
+    </section>
+    
+    <!-- FORM SECTION -->
+    <section id="form">
+	  	
+	    <!-- DEFAULT TEXT INPUT SECTION -->
+	    <h2>Default Text Input Form Style</h2>
+		<h5>CSS selector:</h5>
+		<p>'input[type=text]'</p>
+		<h5>Sample code:</h5>
+		<code>
+			&lt;div class="input-wrapper"&gt; 
+				&lt;input type="text" id="form-name" placeholder="Placeholder Text"&gt; 
+			&lt;/div&gt; 
+		</code>
+		<h5>Rendered element:</h5>
+		<div class="input-wrapper">
+	        <!-- Input elements should have a 'type' defined to help with processing-->
+	        <input type="text" id="form-name" placeholder="Placeholder">
+		</div>
+		
+		<!-- TEXT AREA SECTION -->
+	    <h2>Default Text Area Form Style</h2>
+		<h5>CSS selector:</h5>
+		<p>'textarea'</p>
+		<h5>Sample code:</h5>
+		<code>
+			&lt;div class="input-wrapper"&gt; 
+				&lt;textarea id="long-input" placeholder="Long form input"&gt;
+				&lt;/textarea&gt; 
+			&lt;/div&gt; 
+		</code>
+		<h5>Rendered element:</h5>
+        <div class="input-wrapper">
+	        <!-- Textareas allow for multi-line text input instead of a single line -->
+	        <textarea id="long-input" placeholder="Long form input"></textarea>
+        </div>
+	
+		<!-- FORM SUBMIT BUTTON SECTION -->
+	    <h2>Default Form Submit Button Style</h2>
+		<h5>CSS selector:</h5>
+		<p>'input[type=submit]'</p>
+		<h5>Sample code:</h5>
+		<code>
+			&lt;input type="submit" value="Form Submit"&gt;
+		</code>
+		<h5>Rendered element:</h5>
+		<input type="submit" value="Form Submit">
+
+    </section>
+    
+    <!-- GROUPS SECTION -->
+    <section id="groups">
+    	<h2>Groups</h2>
+	    
+	    <h5>Form Group</h5>
+	    <form method="post" action="#">
+	    
+		    <div class="input-wrapper">
+		        <!-- Input elements should have a 'type' defined to help with processing-->
+		        <input type="text" id="form-name" placeholder="Name">
+			</div>
+			<div class="input-wrapper">
+		        <!-- Input elements should have a 'type' defined to help with processing-->
+		        <input type="text" id="form-email" placeholder="Email">
+			</div>
+			<div class="input-wrapper">
+		        <!-- Input elements should have a 'type' defined to help with processing-->
+		        <input type="text" id="form-address" placeholder="Address">
+			</div>
+	        
+	        <input type="submit" value="Submit Order">
+	    </form>
+    </section>
+    
+  </body>
+</html>
